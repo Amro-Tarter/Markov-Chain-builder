@@ -1,0 +1,24 @@
+How to Run the Tweets Generator
+Compile the program:
+
+Copy
+gcc -o tweetsGenerator tweets_generator.c linked_list.c markov_chain.c
+Run the program:
+
+Copy
+./tweetsGenerator <seed> <number_of_tweets> <text_file> [max_words]
+Example:
+
+Copy
+./tweetsGenerator 42 5 scratch.txt
+Arguments:
+
+seed: Number to initialize random generation (use same seed for same results)
+
+number_of_tweets: How many tweets to generate
+
+text_file: Your input text file
+
+max_words (optional): Limit how many words to read from the file
+
+The program will generate random tweets based on your input text, with each tweet ending properly with punctuation.

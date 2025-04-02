@@ -1,0 +1,3 @@
+My name is Amro.
+My age is twenty-five.
+I love programming in C.
